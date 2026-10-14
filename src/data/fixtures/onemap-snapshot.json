@@ -1,0 +1,300 @@
+{
+ "description": "Recorded OneMap PT response, Clementi (1.3150,103.7650) to COM1 (1.2949,103.7737), departing 15 Oct 2026 10:00 SGT. Reference class start 10:30 SGT. Used only when ENABLE_DEMO_FALLBACK_SNAPSHOTS=true and live routing fails.",
+ "recordedAt": "2026-10-14T08:06:00Z",
+ "referenceClassStart": "2026-10-15T02:30:00.000Z",
+ "source": "ONEMAP_PT",
+ "plan": {
+  "itineraries": [
+   {
+    "duration": 1194,
+    "startTime": 1792029603000,
+    "endTime": 1792030797000,
+    "walkTime": 510,
+    "transitTime": 684,
+    "waitingTime": 0,
+    "walkDistance": 537.25,
+    "transfers": 0,
+    "legs": [
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792029603000,
+      "endTime": 1792029690000,
+      "duration": 87,
+      "distance": 92.25,
+      "from": {
+       "name": "Origin",
+       "lat": 1.315,
+       "lon": 103.765
+      },
+      "to": {
+       "name": "CLEMENTI INT",
+       "stopCode": "17009",
+       "lat": 1.3149157,
+       "lon": 103.7641223
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "uy_GerixRIBJXL^EBb@hA]`@"
+      }
+     },
+     {
+      "mode": "BUS",
+      "route": "96",
+      "startTime": 1792029690000,
+      "endTime": 1792030374000,
+      "duration": 684,
+      "distance": 3488.61,
+      "from": {
+       "name": "CLEMENTI INT",
+       "stopCode": "17009",
+       "lat": 1.3149157,
+       "lon": 103.7641223
+      },
+      "to": {
+       "name": "INFORMATION TECHNOLOGY",
+       "stopCode": "16189",
+       "lat": 1.297361,
+       "lon": 103.772848
+      },
+      "intermediateStops": [
+       {},
+       {},
+       {},
+       {},
+       {},
+       {}
+      ],
+      "legGeometry": {
+       "points": "qu_GqhixRhBAfA@B?D?PAZGTIHGFABCRSBCBCLMRSHIXYBCB?`@c@bCcC@E@C@IAE?CEMo@m@WW}@_AOO??OMg@i@USQQOO`@i@\\g@DE@C@A@?v@}AFWL[@C?ABG?C?A@??ABI@A?C?ADKFa@DQJk@Hm@@[@c@?u@?[Ak@AM?A?C???ECQ??AIG}@QiDAc@GqACg@Cs@?G?G?C?GN?@?B?NAL?ZAf@D\\D|APrAR@?z@L\\@L@J@V@ZDD@B@D?D?B?^FbAN??pBZV@r@J@?@?TBF@??|@JxAPn@FtALrABdA@l@@f@AdAAxB?f@?lA?rBRj@LVDNFVFb@JJDRF~@ZRJRJPHFBHB@@^LTFjBr@FB????@@B@D@@@B@l@P^DxBF\\@^@`E@tAF@?B???@???~CN~@Ff@?PKRIRUBOBIO_AAEIe@Ag@???CASAO?KDqBCcAOu@_@m@EGe@e@]Qk@Sa@O"
+      }
+     },
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792030374000,
+      "endTime": 1792030797000,
+      "duration": 423,
+      "distance": 445,
+      "from": {
+       "name": "INFORMATION TECHNOLOGY",
+       "stopCode": "16189",
+       "lat": 1.297361,
+       "lon": 103.772848
+      },
+      "to": {
+       "name": "Destination",
+       "lat": 1.2949,
+       "lon": 103.7737
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "ok|FgckxR???@??RPTN`@ZHMFKHK?K@?REHGh@RT?G_Ar@C@?^JFBNQDCj@SRIZMWu@d@]DFJJLNBBHJH@J?BELM?C?A@CCE"
+      }
+     }
+    ]
+   },
+   {
+    "duration": 1194,
+    "startTime": 1792029963000,
+    "endTime": 1792031157000,
+    "walkTime": 510,
+    "transitTime": 684,
+    "waitingTime": 0,
+    "walkDistance": 537.25,
+    "transfers": 0,
+    "legs": [
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792029963000,
+      "endTime": 1792030050000,
+      "duration": 87,
+      "distance": 92.25,
+      "from": {
+       "name": "Origin",
+       "lat": 1.315,
+       "lon": 103.765
+      },
+      "to": {
+       "name": "CLEMENTI INT",
+       "stopCode": "17009",
+       "lat": 1.3149157,
+       "lon": 103.7641223
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "uy_GerixRIBJXL^EBb@hA]`@"
+      }
+     },
+     {
+      "mode": "BUS",
+      "route": "96A",
+      "startTime": 1792030050000,
+      "endTime": 1792030734000,
+      "duration": 684,
+      "distance": 3602.03,
+      "from": {
+       "name": "CLEMENTI INT",
+       "stopCode": "17009",
+       "lat": 1.3149157,
+       "lon": 103.7641223
+      },
+      "to": {
+       "name": "INFORMATION TECHNOLOGY",
+       "stopCode": "16189",
+       "lat": 1.297361,
+       "lon": 103.772848
+      },
+      "intermediateStops": [
+       {},
+       {},
+       {},
+       {},
+       {},
+       {}
+      ],
+      "legGeometry": {
+       "points": "ey_GwlixRbAj@l@JFH@JGv@hBAdA@\\AXETKVMRSt@s@\\_@rAqArAsABI?I?IEKo@o@WW}@_AOO??OMg@i@w@u@jA}Av@}AZcADODSNs@Jk@Hm@@Y?wBAy@?GCU??IgAOgDCe@GqAGcB?SV?v@CbAHZDbAJtAVz@Jj@Bb@Dd@Dn@HvDh@jANVBF@??tC\\fCRrAFrB@f@AdAApF?pBTj@JTDjAZ`@L|@ZbAd@JBr@VtBv@????@@HDr@R`@DvBF\\@^?`EBzAF??`FTd@@f@URUFYQgAIc@Cg@??AW?M?MDqBCcAQu@]m@k@m@]Qi@Ue@M"
+      }
+     },
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792030734000,
+      "endTime": 1792031157000,
+      "duration": 423,
+      "distance": 445,
+      "from": {
+       "name": "INFORMATION TECHNOLOGY",
+       "stopCode": "16189",
+       "lat": 1.297361,
+       "lon": 103.772848
+      },
+      "to": {
+       "name": "Destination",
+       "lat": 1.2949,
+       "lon": 103.7737
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "ok|FgckxR???@??RPTN`@ZHMFKHK?K@?REHGh@RT?G_Ar@C@?^JFBNQDCj@SRIZMWu@d@]DFJJLNBBHJH@J?BELM?C?A@CCE"
+      }
+     }
+    ]
+   },
+   {
+    "duration": 1389,
+    "startTime": 1792030817000,
+    "endTime": 1792032206000,
+    "walkTime": 525,
+    "transitTime": 595,
+    "waitingTime": 269,
+    "walkDistance": 509.32,
+    "transfers": 1,
+    "legs": [
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792030817000,
+      "endTime": 1792031003000,
+      "duration": 186,
+      "distance": 156.46,
+      "from": {
+       "name": "Origin",
+       "lat": 1.315,
+       "lon": 103.765
+      },
+      "to": {
+       "name": "CLEMENTI STN EXIT B",
+       "stopCode": "17179",
+       "lat": 1.3152819,
+       "lon": 103.76536
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "uy_GerixRIBWHBDa@LAEM]AC??EKCIAEOa@BA@A?@IB@BC???@DDAFCNGTI?@BB"
+      }
+     },
+     {
+      "mode": "BUS",
+      "route": "183",
+      "startTime": 1792031003000,
+      "endTime": 1792031279000,
+      "duration": 276,
+      "distance": 1448.05,
+      "from": {
+       "name": "CLEMENTI STN EXIT B",
+       "stopCode": "17179",
+       "lat": 1.3152819,
+       "lon": 103.76536
+      },
+      "to": {
+       "name": "UTown - Cendana",
+       "stopCode": "17099",
+       "lat": 1.3078305,
+       "lon": 103.7716527
+      },
+      "intermediateStops": [
+       {},
+       {}
+      ],
+      "legGeometry": {
+       "points": "_{_GisixR??ZK??tAe@tAc@bAa@lAm@x@k@ZYZ[`@i@????f@q@@Av@}AZcADODSNs@Jk@Hm@@Y?wB?i@AOC]??IgAOgDCe@GqAGcB?SV?v@CbAHZDbAJtAVz@Jj@Bb@Dd@Dn@H|@LxBZbBRF@??"
+      }
+     },
+     {
+      "mode": "BUS",
+      "route": "151",
+      "startTime": 1792031548000,
+      "endTime": 1792031867000,
+      "duration": 319,
+      "distance": 1729.81,
+      "from": {
+       "name": "UTown - Cendana",
+       "stopCode": "17099",
+       "lat": 1.3078305,
+       "lon": 103.7716527
+      },
+      "to": {
+       "name": "CTRL LIB",
+       "stopCode": "16181",
+       "lat": 1.2965848,
+       "lon": 103.772552
+      },
+      "intermediateStops": [
+       {},
+       {}
+      ],
+      "legGeometry": {
+       "points": "cm~FwzjxRvC\\dCTrABrBBf@AdAAnF?rBRj@LVDjAZ^L~@Zp@Il@Y\\oANq@FO@KFSJ{@?Q?w@CcCAO@MB]Tw@@C???Cd@cAGIAODMPQL@BLf@a@h@Uf@I@?\\?XCJSXIVARBDVKb@z@TDB????d@Xl@b@h@h@z@zARX\\T~@VTFd@Nj@R\\PZ\\"
+      }
+     },
+     {
+      "mode": "WALK",
+      "route": "",
+      "startTime": 1792031867000,
+      "endTime": 1792032206000,
+      "duration": 339,
+      "distance": 352.86,
+      "from": {
+       "name": "CTRL LIB",
+       "stopCode": "16181",
+       "lat": 1.2965848,
+       "lon": 103.772552
+      },
+      "to": {
+       "name": "Destination",
+       "lat": 1.2949,
+       "lon": 103.7737
+      },
+      "intermediateStops": [],
+      "legGeometry": {
+       "points": "sf|FmakxR@BEDHHNe@TSG_Ar@C@?^JFBNQDCj@SRIZMWu@d@]DFJJLNBBHJH@J?BELM?C?A@CCE"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

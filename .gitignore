@@ -9,3 +9,4 @@ build/
 
 # Local credentials file (not matched by .env.*)
 env.download
+*.tsbuildinfo
