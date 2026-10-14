@@ -1,0 +1,2 @@
+const buildings = [{ id: 'COM1', name: 'Computing 1' }, { id: 'BIZ2', name: 'Business 2' }, { id: 'AS6', name: 'Arts and Social Sciences 6' }, { id: 'UTSRC', name: 'University Sports Centre' }, { id: 'LT17', name: 'Lecture Theatre 17' }];
+export function resolveVenue(raw: string) { const value = raw.trim().toUpperCase(); if (/E-?LEARN|ONLINE/.test(value)) return null; const building = buildings.find((b) => value === b.id || value.startsWith(`${b.id}-`)); return building ? { buildingId: building.id, buildingName: building.name } : null; }

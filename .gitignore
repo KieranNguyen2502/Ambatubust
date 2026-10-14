@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.next/
+
+
+# Local credentials file (not matched by .env.*)
+env.download

@@ -1,0 +1,4 @@
+import { NextResponse } from 'next/server';
+import { getBusArrivals } from '@/lib/adapters/lta';
+import { getShuttleArrivals } from '@/lib/adapters/shuttle';
+export async function GET(request: Request) { const p = new URL(request.url).searchParams; try { if (p.get('network') === 'shuttle') return NextResponse.json({ arrivals: await getShuttleArrivals(p.get('stop') ?? ''), provenance: { source: 'NUS shuttle', status: 'LIVE' } }); const arrivals = await getBusArrivals(p.get('stop') ?? '', p.get('service') ?? undefined); return NextResponse.json({ arrivals, provenance: { source: 'LTA DataMall v3', status: 'LIVE' } }); } catch (error) { return NextResponse.json({ arrivals: [], error: error instanceof Error ? error.message : 'Live arrival data unavailable', provenance: { status: 'UNAVAILABLE', warning: 'Live arrival data unavailable' } }, { status: 503 }); } }

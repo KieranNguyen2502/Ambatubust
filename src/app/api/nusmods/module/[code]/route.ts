@@ -1,0 +1,3 @@
+import { NextResponse } from 'next/server';
+import { env } from '@/lib/config/env';
+export async function GET(_: Request, { params }: { params: { code: string } }) { try { const response = await fetch(`${env.nusmodsBaseUrl}/${env.acadYear}/modules/${encodeURIComponent(params.code.toUpperCase())}.json`, { next: { revalidate: 86400 } }); if (!response.ok) return NextResponse.json({ error: 'Module not found', status: 'UNAVAILABLE' }, { status: response.status }); return NextResponse.json(await response.json(), { headers: { 'X-Data-Source': 'NUSMods API v2' } }); } catch { return NextResponse.json({ error: 'NUSMods is unavailable', status: 'UNAVAILABLE' }, { status: 503 }); } }

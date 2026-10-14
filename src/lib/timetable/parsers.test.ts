@@ -1,0 +1,3 @@
+import { describe, expect, it } from 'vitest';
+import { parseNusmodsUrl, parseIcs } from './parsers';
+describe('timetable parsers', () => { it('parses NUSMods module links', () => expect(parseNusmodsUrl('https://nusmods.com/timetable/sem-1/share?moduleCode=CS2103T')).toEqual({ moduleCode: 'CS2103T', lessons: [] })); it('rejects invalid links', () => expect(parseNusmodsUrl('not a url')).toBeNull()); it('parses a minimal ICS event', () => expect(parseIcs('BEGIN:VEVENT\nDTSTART:20261014T100000\nDTEND:20261014T120000\nSUMMARY:CS2103T Lecture\nLOCATION:COM1-0212\nEND:VEVENT')[0].rawVenue).toBe('COM1-0212')); });
